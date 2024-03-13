@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/portada_fragment"
+            android:icon="@drawable/acercade"
+            android:title="Portada" />
+        <item
+            android:id="@+id/personajes_fragment"
+            android:icon="@drawable/personajes"
+            android:title="Personajes" />
+        <item
+            android:id="@+id/momentos_fragment"
+            android:icon="@drawable/momentos"
+            android:title="Momentos " />
+        <item
+            android:id="@+id/acercade_fragment"
+            android:icon="@drawable/info"
+            android:title="Acerda de" />
+        <item
+            android:id="@+id/enmivida_fragment"
+            android:icon="@drawable/enmivida"
+            android:title="En Mi Vida" />
+        <item
+            android:id="@+id/contratame_fragment"
+            android:icon="@drawable/contratame"
+            android:title="Contratame" />
+    </group>
+</menu>

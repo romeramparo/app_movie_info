@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.asignacion5_romeramparo.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/portada_fragment"
+        android:name="com.example.asignacion5_romeramparo.portada_fragment"
+        android:label="Portada"
+        tools:layout="@layout/fragment_portada_fragment" />
+    <fragment
+        android:id="@+id/personajes_fragment"
+        android:name="com.example.asignacion5_romeramparo.personajes_fragment"
+        android:label="Personajes"
+        tools:layout="@layout/fragment_personajes_fragment" />
+    <fragment
+        android:id="@+id/momentos_fragment"
+        android:name="com.example.asignacion5_romeramparo.MomentosFragment"
+        android:label="Momentos"
+        tools:layout="@layout/fragment_momentos" />
+    <fragment
+        android:id="@+id/acercade_fragment"
+        android:name="com.example.asignacion5_romeramparo.Acercade_Fragment"
+        android:label="Acerca de"
+        tools:layout="@layout/fragment_acercade_" />
+    <fragment
+        android:id="@+id/enmivida_fragment"
+        android:name="com.example.asignacion5_romeramparo.enmivida_fragment"
+        android:label="En Mi Vida"
+        tools:layout="@layout/fragment_enmivida_fragment" />
+    <fragment
+        android:id="@+id/contratame_fragment"
+        android:name="com.example.asignacion5_romeramparo.contratame_fragment"
+        android:label="Contratame"
+        tools:layout="@layout/fragment_contratame_fragment" />
+
+
+</navigation>

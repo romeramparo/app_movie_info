@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".portada_fragment">
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="238dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="10dp"
+        android:text="La película “Guardianes de la galaxia Vol. 3″ (”Guardians of the Galaxy Vol. 3″) es uno de los grandes estrenos del 2023. No solo es la cinta con la que concluye la trilogía cinematográfica de James Gunn en el MCU, sino que también es la despedida de queridas figuras de la franquicia. Adéntrate en el mundo de ‘Guardianes de la Galaxia 3’, con una duración de 2 horas y 29 minutos, para ser tripulante de una misión que pretende salvar a Rocket del científico que le creó, el Alto Evolucionador; Iwuji."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</RelativeLayout>
+

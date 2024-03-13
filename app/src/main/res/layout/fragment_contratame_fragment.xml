@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contratame_fragment" >
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="355dp"
+        android:layout_height="325dp"
+        android:layout_marginStart="4dp"
+        android:text="Mi nombre es Romer Samil Amparo, tengo 19 años de edad estudio en el instituto tecnologico de las Americas (ITLA) en el tecnologo de Software cursando actualmente el 7mo cuatrimestre. Me gusta mucho el desarrollo de aplicaciones de escritorio y moviles aunque admito no tener un conocimiento de profesional. De igual forma tengo conocimiento del idioma ingles y tengo bastas intenciones de adquirir nuevos conocimeintos de diversos temas como DevOps y Analisis de Datos."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Romer Amparo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="236dp"
+        android:layout_height="241dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/foto"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
